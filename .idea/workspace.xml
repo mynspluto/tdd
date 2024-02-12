@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e836286e-757f-455a-9275-2685356dd6b7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/productorderservice/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/productorderservice/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/productorderservice/product/ProductAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/productorderservice/product/ProductAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/productorderservice/product/ProductPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/productorderservice/product/ProductPort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/productorderservice/product/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/productorderservice/product/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/productorderservice/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/productorderservice/product/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/productorderservice/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/productorderservice/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/productorderservice/product/ProductApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/productorderservice/product/ProductApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/product/ProductServiceTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,12 +89,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.productorderservice.product" />
       <recent name="product" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="com.example.productorderservice.product" />
       <recent name="product" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
