@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e836286e-757f-455a-9275-2685356dd6b7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/productorderservice/product/ProductAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/productorderservice/product/ProductAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/productorderservice/product/ProductPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/productorderservice/product/ProductPort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/productorderservice/product/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/productorderservice/product/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/productorderservice/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/productorderservice/product/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/productorderservice/product/ProductApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/productorderservice/product/ProductApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/product/ProductServiceTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,10 +62,12 @@
   "keyToString": {
     "Gradle.ProductApiTest.executor": "Run",
     "Gradle.ProductApiTest.상품등록.executor": "Run",
+    "Gradle.ProductApiTest.상품조회.executor": "Run",
     "Gradle.ProductServiceTest (1).executor": "Run",
     "Gradle.ProductServiceTest.executor": "Run",
     "Gradle.ProductServiceTest.상품등록 (1).executor": "Run",
     "Gradle.ProductServiceTest.상품등록.executor": "Run",
+    "Gradle.ProductServiceTest.상품조회.executor": "Run",
     "Gradle.product-order-service [:ProductOrderServiceApplication.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -107,7 +105,7 @@
       <recent name="product" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ProductApiTest.상품등록">
+  <component name="RunManager" selected="Gradle.ProductApiTest.상품조회">
     <configuration name="ProductApiTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -156,6 +154,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="ProductApiTest.상품조회" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.productorderservice.product.ProductApiTest.상품조회&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="ProductServiceTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -180,7 +202,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ProductServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ProductServiceTest.상품조회" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -193,31 +215,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;productorderservice.product.ProductServiceTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="ProductServiceTest.상품등록 (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;productorderservice.product.ProductServiceTest.상품등록&quot;" />
+            <option value="&quot;com.example.productorderservice.product.ProductServiceTest.상품조회&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -230,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ProductApiTest.상품조회" />
+        <item itemvalue="Gradle.ProductServiceTest.상품조회" />
         <item itemvalue="Gradle.ProductApiTest.상품등록" />
         <item itemvalue="Gradle.ProductApiTest" />
         <item itemvalue="Gradle.ProductServiceTest (1)" />
-        <item itemvalue="Gradle.ProductServiceTest.상품등록 (1)" />
-        <item itemvalue="Gradle.ProductServiceTest" />
       </list>
     </recent_temporary>
   </component>
