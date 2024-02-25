@@ -3,8 +3,6 @@ package com.example.productorderservice.payment;
 import com.example.productorderservice.ApiTest;
 import com.example.productorderservice.order.OrderSteps;
 import com.example.productorderservice.product.ProductSteps;
-import io.restassured.response.ExtractableResponse;
-import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;
 
